@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "ant-design-vue",
+        "styleLibraryName": "es",
+        "style": true
+      },
+      "antdv"
+    ],
+    [
+      "import",
+      {
+        "libraryName": "@formily/antdv",
+        "libraryDirectory": "esm",
+        "style": true
+      },
+      "@formily/antdv"
+    ]
+  ]
+}
